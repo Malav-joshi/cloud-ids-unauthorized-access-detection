@@ -1,0 +1,16 @@
+eventTime,sourceIPAddress,eventName,eventSource,awsRegion,userIdentitytype,eventType,errorCode
+2023-06-01T14:25:00Z,192.168.1.10,ConsoleLogin,signin.amazonaws.com,us-east-1,IAMUser,AWSConsoleSignIn,UnauthorizedAccess
+2023-06-01T14:26:10Z,192.168.1.22,StartInstances,ec2.amazonaws.com,us-east-1,IAMUser,AWSAPIRequest,
+2023-06-01T14:27:35Z,172.16.5.5,StopInstances,ec2.amazonaws.com,us-west-2,Root,AWSAPIRequest,
+2023-06-01T14:30:12Z,10.0.0.3,CreateBucket,s3.amazonaws.com,us-east-1,AssumedRole,AWSAPIRequest,AccessDenied
+2023-06-01T14:35:42Z,203.0.113.15,DeleteBucket,s3.amazonaws.com,ap-south-1,IAMUser,AWSAPIRequest,
+2023-06-01T14:38:50Z,198.51.100.24,PutObject,s3.amazonaws.com,us-east-1,IAMUser,AWSAPIRequest,
+2023-06-01T14:40:05Z,203.0.113.100,ConsoleLogin,signin.amazonaws.com,us-west-2,IAMUser,AWSConsoleSignIn,UnauthorizedAccess
+2023-06-01T14:42:20Z,192.168.1.101,TerminateInstances,ec2.amazonaws.com,us-east-2,Root,AWSAPIRequest,
+2023-06-01T14:44:00Z,172.31.32.25,AttachRolePolicy,iam.amazonaws.com,eu-west-1,IAMUser,AWSAPIRequest,AccessDenied
+2023-06-01T14:45:15Z,192.0.2.55,UpdateTrail,cloudtrail.amazonaws.com,us-east-1,IAMUser,AWSAPIRequest,
+2023-06-01T14:47:33Z,10.10.10.10,GetBucketPolicy,s3.amazonaws.com,us-west-1,IAMUser,AWSAPIRequest,
+2023-06-01T14:49:05Z,192.168.100.8,CreateUser,iam.amazonaws.com,us-east-1,AssumedRole,AWSAPIRequest,
+2023-06-01T14:50:44Z,203.0.113.55,CreateKey,kms.amazonaws.com,us-east-1,Root,AWSAPIRequest,
+2023-06-01T14:52:10Z,192.168.88.22,ConsoleLogin,signin.amazonaws.com,us-east-1,IAMUser,AWSConsoleSignIn,UnauthorizedAccess
+2023-06-01T14:53:59Z,198.51.100.33,DescribeInstances,ec2.amazonaws.com,ap-south-1,IAMUser,AWSAPIRequest,
